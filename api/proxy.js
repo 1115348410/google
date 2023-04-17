@@ -2,7 +2,7 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
 
-  let target = "https://api.openai.com/";
+  let target = "https://chat.openai.com/";
 // >>>>>>> refs/remotes/origin/master
 
   // 这里使用 backend 主要用于区分 vercel serverless 的 api 路径
