@@ -4,8 +4,5 @@
             "source": "/(.*)",
             "destination": "/"
         }
-    ],
-    "funcations":{
-        "timeout": 60
-    }
+    ]
 }
