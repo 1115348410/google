@@ -2,7 +2,7 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
 
-  let target = "https://bard.google.com/";
+  let target = "https://WWW.google.com/";
   // 创建代理对象并转发请求
   createProxyMiddleware({
     target,
